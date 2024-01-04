@@ -9,7 +9,7 @@ setup(
     license='MIT License',
     author='Mateus Orlandin Dias',
     long_description=readme,
-    long_description_content_type="text\markdown",
+    long_description_content_type="text/markdown",
     author_email='mateus.orlandin@gmail.com',
     keywords='RPA activities',
     description=u'Library RPA Python',

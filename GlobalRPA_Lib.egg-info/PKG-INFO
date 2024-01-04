@@ -6,7 +6,7 @@ Author: Mateus Orlandin Dias
 Author-email: mateus.orlandin@gmail.com
 License: MIT License
 Keywords: RPA activities
-Description-Content-Type: text\markdown
+Description-Content-Type: text/markdown
 License-File: LICENCE
 Requires-Dist: secure-smtplib
 
