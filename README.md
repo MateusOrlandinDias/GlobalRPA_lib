@@ -9,21 +9,21 @@ The RPA Library follows a modular structure with three main folders: `email`, `f
 - **Folder Name:** `email`
 - **Virtual Environment:** `env_email`
 - **Files:**
-  - `globalemail.py`: Contains email-related functionalities.
+  - `GlobalEmail.py`: Contains email-related functionalities.
 
 ### 2. File
 
 - **Folder Name:** `file`
 - **Virtual Environment:** `env_file`
 - **Files:**
-  - `global_files.py`: Includes file-related functionalities.
+  - `GlobalFiles.py`: Includes file-related functionalities.
 
 ### 3. Selector
 
 - **Folder Name:** `selector`
 - **Virtual Environment:** `env_selector`
 - **Files:**
-  - `global.py`: Houses selector functionalities.
+  - `GlobalUi.py`: Houses selector functionalities.
 
 ## Global Environment
 
