@@ -5,7 +5,7 @@ with open('README.md', 'r') as file:
 
 setup(
     name='GlobalRPA_Lib',
-    version='1.0.0',
+    version='1.0.1',
     license='MIT License',
     author='Mateus Orlandin Dias',
     long_description=readme,
@@ -13,6 +13,6 @@ setup(
     author_email='mateus.orlandin@gmail.com',
     keywords='RPA activities',
     description=u'Library RPA Python',
-    packages=['email','file', 'selector'],
+    py_modules=['GlobalEmail', 'GlobalFiles', 'GlobalUi'],
     install_requires=['secure-smtplib']
 )

@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: GlobalRPA_Lib
-Version: 1.0.0
+Version: 1.0.1
 Summary: Library RPA Python
 Author: Mateus Orlandin Dias
 Author-email: mateus.orlandin@gmail.com
@@ -14,28 +14,24 @@ Requires-Dist: secure-smtplib
 
 ## Folder Structure
 
-The RPA Library follows a modular structure with three main folders: `email`, `file`, and `selector`. The current structure is as follows:
+The RPA Library follows a simplified structure with modules directly in the main directory. The current structure is as follows:
 
-### 1. Email
+### 1. GlobalEmail
 
-- **Folder Name:** `email`
-- **Virtual Environment:** `env_email`
-- **Files:**
-  - `globalemail.py`: Contains email-related functionalities.
+- **File Name:** `GlobalEmail.py`
+- **Description:** Contains functionalities related to email automation.
 
-### 2. File
+### 2. GlobalFiles
 
-- **Folder Name:** `file`
-- **Virtual Environment:** `env_file`
-- **Files:**
-  - `global_files.py`: Includes file-related functionalities.
+- **File Name:** `GlobalFiles.py`
+- **Description:** Includes file-related automation capabilities.
 
-### 3. Selector
+### 3. GlobalUi
 
-- **Folder Name:** `selector`
-- **Virtual Environment:** `env_selector`
-- **Files:**
-  - `global.py`: Houses selector functionalities.
+- **File Name:** `GlobalUi.py`
+- **Description:** Houses functionalities for UI automation.
+
+This new structure aims for simplicity, with all modules directly accessible in the main directory.
 
 ## Global Environment
 
@@ -63,7 +59,7 @@ pip install -r env_global_rpa_lib/requirements.txt
 
 After installing the required dependencies, you can use the RPA Library modules in your Python script as follows:
 ```bash
-pip install -r env_global_rpa_lib/requirements.txt
+pip install GlobalRPA-Lib
 ```
 
 ```python

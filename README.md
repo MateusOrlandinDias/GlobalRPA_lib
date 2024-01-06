@@ -2,28 +2,24 @@
 
 ## Folder Structure
 
-The RPA Library follows a modular structure with three main folders: `email`, `file`, and `selector`. The current structure is as follows:
+The RPA Library follows a simplified structure with modules directly in the main directory. The current structure is as follows:
 
-### 1. Email
+### 1. GlobalEmail
 
-- **Folder Name:** `email`
-- **Virtual Environment:** `env_email`
-- **Files:**
-  - `GlobalEmail.py`: Contains email-related functionalities.
+- **File Name:** `GlobalEmail.py`
+- **Description:** Contains functionalities related to email automation.
 
-### 2. File
+### 2. GlobalFiles
 
-- **Folder Name:** `file`
-- **Virtual Environment:** `env_file`
-- **Files:**
-  - `GlobalFiles.py`: Includes file-related functionalities.
+- **File Name:** `GlobalFiles.py`
+- **Description:** Includes file-related automation capabilities.
 
-### 3. Selector
+### 3. GlobalUi
 
-- **Folder Name:** `selector`
-- **Virtual Environment:** `env_selector`
-- **Files:**
-  - `GlobalUi.py`: Houses selector functionalities.
+- **File Name:** `GlobalUi.py`
+- **Description:** Houses functionalities for UI automation.
+
+This new structure aims for simplicity, with all modules directly accessible in the main directory.
 
 ## Global Environment
 
