@@ -51,7 +51,7 @@ pip install -r env_global_rpa_lib/requirements.txt
 
 After installing the required dependencies, you can use the RPA Library modules in your Python script as follows:
 ```bash
-pip install -r env_global_rpa_lib/requirements.txt
+pip install GlobalRPA-Lib
 ```
 
 ```python
