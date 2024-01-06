@@ -1,3 +1,3 @@
-from .GlobalEmail import *
-from .GlobalFiles import *
-from .GlobalUi import *
+from .GlobalEmail import GlobalEmail
+from .GlobalFiles import GlobalFiles
+from .GlobalUi import GlobalUi
