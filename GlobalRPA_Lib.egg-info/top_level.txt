@@ -1,3 +1,4 @@
 GlobalEmail
 GlobalFiles
+GlobalTables
 GlobalUi

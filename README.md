@@ -14,7 +14,12 @@ The RPA Library follows a simplified structure with modules directly in the main
 - **File Name:** `GlobalFiles.py`
 - **Description:** Includes file-related automation capabilities.
 
-### 3. GlobalUi
+### 3. GlobalTables
+
+- **File Name:** `GlobalTables.py`
+- **Description:** Includes table-related automation capabilities.
+
+### 4. GlobalUi
 
 - **File Name:** `GlobalUi.py`
 - **Description:** Houses functionalities for UI automation.
@@ -51,5 +56,5 @@ pip install GlobalRPA-Lib
 ```
 
 ```python
-from GlobalRPA_Lib import GlobalEmail, GlobalFiles, GlobalSelector
+from GlobalRPA_Lib import GlobalEmail, GlobalFiles, GlobalTables, GlobalUi
 ```
