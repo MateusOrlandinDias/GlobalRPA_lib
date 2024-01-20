@@ -1,8 +1,13 @@
-import GlobalUi as gui
 from selenium import webdriver
+import GlobalFiles as gi
+import os
 
 driver = webdriver.Chrome()
-driver.get('https://test.pypi.org')
+driver.get('https://rpachallenge.com/')
 
-test = gui.element_exists(driver, "//label[contains(text(), 'Username')]", 5)
-print(test)
+downloadsFolder = os.path.expanduser("~/Downloads")
+
+actionToStartDownload = driver.find_element('xpath', '//a[contains(text(), "Download Excel")]')
+
+resultDownload = gi.waitForDownload(actionToStartDownload, 10)
+print(resultDownload)
