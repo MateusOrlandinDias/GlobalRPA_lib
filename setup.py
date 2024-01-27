@@ -5,7 +5,7 @@ with open('README.md', 'r') as file:
 
 setup(
     name='GlobalRPA_Lib',
-    version='1.4.0',
+    version='1.4.1',
     license='MIT License',
     author='Mateus Orlandin Dias',
     long_description=readme,
